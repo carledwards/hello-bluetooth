@@ -26,7 +26,7 @@ struct ContentView: View {
   }
   
   init() {
-    simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "19B10010-E8F2-537E-4F6C-D104768A1214", onValueChanged: remoteValueChanged)
+    simpleBluetoothIO = SimpleBluetoothIO(serviceUUID: "31423931", onValueChanged: remoteValueChanged)
   }
   
   var body: some View {

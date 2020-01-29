@@ -39,18 +39,15 @@ extension SimpleBluetoothIO: CBCentralManagerDelegate {
 
     if let connectedPeripheral = connectedPeripheral {
       print("connectedPeripheral.identifier.uuidString: \(connectedPeripheral.identifier.uuidString), name: \(connectedPeripheral.name)")
-      if "mpy-uart" == connectedPeripheral.name {
-          connectedPeripheral.delegate = self
-          centralManager.connect(connectedPeripheral, options: nil)
-          centralManager.stopScan()
-      }
+        connectedPeripheral.delegate = self
+        centralManager.connect(connectedPeripheral, options: nil)
+        centralManager.stopScan()
     }
   }
   
   func centralManagerDidUpdateState(_ central: CBCentralManager) {
     if central.state == .poweredOn {
-      centralManager.scanForPeripherals(withServices: nil, options:[
-        CBCentralManagerScanOptionSolicitedServiceUUIDsKey:[CBUUID(string: self.serviceUUID)],
+      centralManager.scanForPeripherals(withServices: [CBUUID(string: self.serviceUUID)], options:[
         CBCentralManagerScanOptionAllowDuplicatesKey:false,
       ])
     }
