@@ -9,36 +9,35 @@
 /* Begin PBXBuildFile section */
 		1D11CB12202821A8003C479F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11CB11202821A8003C479F /* AppDelegate.swift */; };
 		1D11CB14202821A8003C479F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D11CB13202821A8003C479F /* Assets.xcassets */; };
-		1D11CB17202821A8003C479F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D11CB15202821A8003C479F /* MainMenu.xib */; };
-		1D11CB1F20282651003C479F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D11CB1D20282651003C479F /* ViewController.swift */; };
 		1D11CB21202830DA003C479F /* SimpleBluetoothIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F206F1C96329A00B6600F /* SimpleBluetoothIO.swift */; };
 		1D11CB22202830DF003C479F /* NSData+Int8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F20711C96363C00B6600F /* NSData+Int8.swift */; };
 		80106FA41C94CDA500B5BB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80106FA31C94CDA500B5BB19 /* AppDelegate.swift */; };
-		80106FA61C94CDA500B5BB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80106FA51C94CDA500B5BB19 /* ViewController.swift */; };
 		80106FAB1C94CDA500B5BB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80106FAA1C94CDA500B5BB19 /* Assets.xcassets */; };
-		80106FB61C94CE4C00B5BB19 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80106FB51C94CE4C00B5BB19 /* ViewController.xib */; };
 		80106FB81C94D02F00B5BB19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80106FB71C94D02F00B5BB19 /* LaunchScreen.xib */; };
 		804F20701C96329A00B6600F /* SimpleBluetoothIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F206F1C96329A00B6600F /* SimpleBluetoothIO.swift */; };
 		804F20721C96363C00B6600F /* NSData+Int8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F20711C96363C00B6600F /* NSData+Int8.swift */; };
+		C34B21E123DDDA56004A35D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B21E023DDDA56004A35D2 /* SceneDelegate.swift */; };
+		C34B21E323DDDAA8004A35D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B21E223DDDAA8004A35D2 /* ContentView.swift */; };
+		C34B220423DDEEF6004A35D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34B220323DDEEF6004A35D2 /* Main.storyboard */; };
+		C34B220523DDEFA5004A35D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B21E223DDDAA8004A35D2 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D11CB0F202821A8003C479F /* HelloBluetoothMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBluetoothMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D11CB11202821A8003C479F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D11CB13202821A8003C479F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D11CB16202821A8003C479F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1D11CB18202821A8003C479F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D11CB19202821A8003C479F /* HelloBluetoothMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloBluetoothMac.entitlements; sourceTree = "<group>"; };
-		1D11CB1D20282651003C479F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80106FA01C94CDA500B5BB19 /* HelloBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80106FA31C94CDA500B5BB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80106FA51C94CDA500B5BB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80106FAA1C94CDA500B5BB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80106FAF1C94CDA500B5BB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80106FB51C94CE4C00B5BB19 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		80106FB71C94D02F00B5BB19 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		804F206F1C96329A00B6600F /* SimpleBluetoothIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleBluetoothIO.swift; sourceTree = "<group>"; };
 		804F20711C96363C00B6600F /* NSData+Int8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Int8.swift"; sourceTree = "<group>"; };
+		C34B21E023DDDA56004A35D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C34B21E223DDDAA8004A35D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C34B220323DDEEF6004A35D2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				1D11CB11202821A8003C479F /* AppDelegate.swift */,
-				1D11CB1D20282651003C479F /* ViewController.swift */,
 				1D11CB13202821A8003C479F /* Assets.xcassets */,
-				1D11CB15202821A8003C479F /* MainMenu.xib */,
+				C34B220323DDEEF6004A35D2 /* Main.storyboard */,
 				1D11CB18202821A8003C479F /* Info.plist */,
 				1D11CB19202821A8003C479F /* HelloBluetoothMac.entitlements */,
 			);
@@ -94,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				80106FA31C94CDA500B5BB19 /* AppDelegate.swift */,
+				C34B21E023DDDA56004A35D2 /* SceneDelegate.swift */,
+				C34B21E223DDDAA8004A35D2 /* ContentView.swift */,
 				804F20711C96363C00B6600F /* NSData+Int8.swift */,
 				804F206F1C96329A00B6600F /* SimpleBluetoothIO.swift */,
-				80106FA51C94CDA500B5BB19 /* ViewController.swift */,
-				80106FB51C94CE4C00B5BB19 /* ViewController.xib */,
 				80106FAA1C94CDA500B5BB19 /* Assets.xcassets */,
 				80106FAF1C94CDA500B5BB19 /* Info.plist */,
 				80106FB71C94D02F00B5BB19 /* LaunchScreen.xib */,
@@ -154,6 +152,7 @@
 				TargetAttributes = {
 					1D11CB0E202821A8003C479F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
 					80106F9F1C94CDA400B5BB19 = {
@@ -188,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D11CB14202821A8003C479F /* Assets.xcassets in Resources */,
-				1D11CB17202821A8003C479F /* MainMenu.xib in Resources */,
+				C34B220423DDEEF6004A35D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80106FB61C94CE4C00B5BB19 /* ViewController.xib in Resources */,
 				80106FB81C94D02F00B5BB19 /* LaunchScreen.xib in Resources */,
 				80106FAB1C94CDA500B5BB19 /* Assets.xcassets in Resources */,
 			);
@@ -211,7 +209,7 @@
 			files = (
 				1D11CB21202830DA003C479F /* SimpleBluetoothIO.swift in Sources */,
 				1D11CB22202830DF003C479F /* NSData+Int8.swift in Sources */,
-				1D11CB1F20282651003C479F /* ViewController.swift in Sources */,
+				C34B220523DDEFA5004A35D2 /* ContentView.swift in Sources */,
 				1D11CB12202821A8003C479F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80106FA61C94CDA500B5BB19 /* ViewController.swift in Sources */,
+				C34B21E123DDDA56004A35D2 /* SceneDelegate.swift in Sources */,
+				C34B21E323DDDAA8004A35D2 /* ContentView.swift in Sources */,
 				804F20721C96363C00B6600F /* NSData+Int8.swift in Sources */,
 				804F20701C96329A00B6600F /* SimpleBluetoothIO.swift in Sources */,
 				80106FA41C94CDA500B5BB19 /* AppDelegate.swift in Sources */,
@@ -228,17 +227,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1D11CB15202821A8003C479F /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D11CB16202821A8003C479F /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D11CB1A202821A8003C479F /* Debug */ = {
@@ -257,12 +245,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HelloBluetoothMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasderraugh.HelloBluetoothMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -282,11 +270,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = HelloBluetoothMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasderraugh.HelloBluetoothMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -337,7 +325,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +375,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -400,11 +390,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ZVLGU58A8;
 				INFOPLIST_FILE = HelloBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nebsp.HelloBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,11 +406,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ZVLGU58A8;
 				INFOPLIST_FILE = HelloBluetooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nebsp.HelloBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

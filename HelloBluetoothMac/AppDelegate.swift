@@ -1,20 +1,24 @@
-//
-//  AppDelegate.swift
-//  HelloBluetoothMac
-//
-//  Created by Lucas Derraugh on 2/4/18.
-//  Copyright © 2018 Nebojsa Petrovic. All rights reserved.
-//
-
 import Cocoa
+import SwiftUI
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
+  var window: NSWindow!
 
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        window.contentViewController = ViewController()
-    }
+  func applicationDidFinishLaunching(_ aNotification: Notification) {
+    // Create the SwiftUI view that provides the window contents.
+    let contentView = ContentView()
+
+    // Create the window and set the content view.
+    window = NSWindow(
+        contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
+        styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+        backing: .buffered, defer: false)
+    window.center()
+    window.setFrameAutosaveName("Main Window")
+    window.contentView = NSHostingView(rootView: contentView)
+    window.makeKeyAndOrderFront(nil)
+  }
 }
 
