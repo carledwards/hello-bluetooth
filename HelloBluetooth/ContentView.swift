@@ -18,7 +18,7 @@ struct ContentView: View {
   @State private var remoteTurnOn: Bool = false
   
   func sendRemoteValue() -> Void {
-    simpleBluetoothIO.writeValue(value: remoteTurnOn ? 1 : 0)
+    simpleBluetoothIO.writeString(value: remoteTurnOn ? "On" : "Off")
   }
 
   func remoteValueChanged(_ value: Int8) -> Void {
@@ -36,7 +36,7 @@ struct ContentView: View {
       Form {
         Section {
           Toggle(isOn: remoteOn) {
-            Text("Set remote value \(remoteTurnOn.description)")
+            Text("Set remote value")
           }
         }.padding()
         
